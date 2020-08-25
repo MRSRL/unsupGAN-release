@@ -36,7 +36,9 @@ Testing can be ran using:
 ## Training/Testing Supervised GAN
 
 The training of the supervised GAN can be ran using the following script:
+
     python3 train_supervised.py dataset_dir model_dir
+
 where dataset_dir is the folder where the knee datasets were saved to,
 and model_dir will be the top directory where the models will be saved to.
 
