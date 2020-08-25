@@ -23,11 +23,14 @@ We will first download data, generate sampling masks, and generate TFRecords for
 ## Training/Testing Unsupervised GAN
 
 The training of the unsupervised GAN can be ran using the following script:
+
     python3 train_unsupervised.py dataset_dir model_dir
+
 where dataset_dir is the folder where the knee datasets were saved to,
 and model_dir will be the top directory where the models will be saved to.
 
 Testing can be ran using:
+
     python3 test_unsupervised.py dataset_dir model_dir
 
 ## Training/Testing Supervised GAN
@@ -38,6 +41,7 @@ where dataset_dir is the folder where the knee datasets were saved to,
 and model_dir will be the top directory where the models will be saved to.
 
 Testing can be ran using:
+
     python3 test_supervised.py dataset_dir model_dir
 
 ## Questions/Issues
