@@ -1155,6 +1155,8 @@ def download_dataset_knee(dir_out, dir_tmp="tmp", verbose=False, do_cleanup=True
             print("  dowloading from %s..." % url)
         if not os.path.isdir(dir_name_i):
             os.makedirs(dir_name_i)
+        print(url)
+        exit()
         file_download = wget.download(url, out=dir_tmp)
 
         if verbose:

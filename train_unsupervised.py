@@ -28,8 +28,9 @@ flags.DEFINE_integer("d_dim", 128, "Number of feature maps in discriminator")
 flags.DEFINE_integer(
     "res_blocks", 4, "Number of resblocks in unrolled generator")
 flags.DEFINE_boolean("train", True, "train")
-flags.DEFINE_string(
-    "mask_path", "/home_local/ekcole/vd_masks_uniform", "mask path")
+# flags.DEFINE_string(
+#     "mask_path", "/home_local/ekcole/vd_masks_uniform", "mask path")
+flags.DEFINE_string("mask_path", "/home_local/ekcole/knee_masks_6", "mask path")
 flags.DEFINE_string("arch", "unrolled", "architecture of generator")
 flags.DEFINE_string("data_type", "knee", "knee or DCE_2D")
 
